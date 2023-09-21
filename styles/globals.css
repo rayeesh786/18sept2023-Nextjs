@@ -1,16 +1,36 @@
+
 header{
   width:980px;
   height:140px;
   background:#0D7962;
   border:1px dashed white;
   margin:auto;
+  color:white;
 }
 main{
   width:980px;
   height:450px;
-  background:green;
   border:1px dashed white;
   margin:auto;
+}
+aside{
+  width:270px;
+  height:450px;
+  background:red;
+  border:1px dashed white;
+  float:left;
+  margin-right:15px;
+  color:white;
+ 
+}
+section{
+  width:690px;
+  height:450px;
+  background-color:blue;
+  border:1px dashed white;
+  float:left;
+  color:white;
+ 
 }
 footer{
   width:980px;
@@ -18,5 +38,6 @@ footer{
   background:#0D7962;
   border:1px dashed white;
   margin:auto;
+  color:white;
 
 }

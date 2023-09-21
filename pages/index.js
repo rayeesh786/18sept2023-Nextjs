@@ -9,15 +9,18 @@ function Home() {
         <title>Welcome to my first Nextjs application</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header></header>
+      <header>
+        header component
+      </header>
 
       <main>
-        
-      </main>
+        <aside>aside component</aside>
+        <section>section component</section>
+        </main>
 
       <footer>
-       
-      </footer>
+        footer component
+       </footer>
     </>
   )
 }

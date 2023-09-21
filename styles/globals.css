@@ -3,11 +3,20 @@ header{
   height:140px;
   background:#0D7962;
   border:1px dashed white;
+  margin:auto;
+}
+main{
+  width:980px;
+  height:450px;
+  background:green;
+  border:1px dashed white;
+  margin:auto;
 }
 footer{
   width:980px;
   height:70px;
   background:#0D7962;
   border:1px dashed white;
+  margin:auto;
 
 }

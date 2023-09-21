@@ -1,5 +1,9 @@
 // 1. Import area
 import Head from 'next/head'
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Aside from '../components/Aside';
+import Section from '../components/Section';
 
 //2. Function defination area
 function Home() {
@@ -9,18 +13,14 @@ function Home() {
         <title>Welcome to my first Nextjs application</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        header component
-      </header>
+      <Header/>
 
       <main>
-        <aside>aside component</aside>
-        <section>section component</section>
+        <Aside/>
+        <Section/>
         </main>
 
-      <footer>
-        footer component
-       </footer>
+      <Footer/>
     </>
   )
 }
